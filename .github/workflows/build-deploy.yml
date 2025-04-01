@@ -26,8 +26,8 @@ jobs:
       - name: Upgrade Pip
         run: python3 -m pip install --upgrade pip
 
-      - name: Install Dependencies
-        run: python3 -m pip install -r requirements.txt
+      # - name: Install Dependencies
+      #   run: python3 -m pip install -r requirements.txt
 
       # - name: Run Tests
       #   run: |
