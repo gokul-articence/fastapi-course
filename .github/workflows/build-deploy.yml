@@ -45,7 +45,7 @@ jobs:
 
       - name: Deploy to Ubuntu Server
         run: |
-          cd /app/src
+          cd /home/articence/fastapi_test_cicd
           git pull origin main
           source /home/${{ secrets.PROD_USERNAME }}/venv/bin/activate
           pip install -r requirements.txt
