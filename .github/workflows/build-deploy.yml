@@ -29,8 +29,6 @@ jobs:
       - name: Upgrade Pip
         run: python -m pip install --upgrade pip
 
-    
-
   deploy:
     runs-on: self-hosted
     needs: [build]
